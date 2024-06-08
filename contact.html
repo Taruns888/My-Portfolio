@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Education.html">Intro</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="certificate.html">Blog</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="hamburger">
+                <img class ="ham" src="ham.png" alt="" width="25px">
+                <img class ="cross" src="cross.png" alt="" width="25px">
+                <a href="index.html"><img class="homeicon" src="home.png" alt="" width="25px"></a>
+                <a href="Education.html"><img class="infoicon" src="info.png" alt="" width="25px"></a>
+                <a href="project.html"><img class="projecticon" src="project.png" alt="" width="25px"></a>
+                <a href="certificate.html"><img class="blogicon" src="blog.png" alt="" width="25px"></a>
+                <a href="contact.html"><img class="contacticon" src="contact.png" alt="" width="25px"></a>
+            </div>
+           <div class="contactform">
+             <h1>Contact me for work/general Enquiries </h1>
+             <div class="form1">
+                
+                    <form>
+                        <div class="mb-3">
+                            <label for="clientemail" class="form-label">Name</label>
+                            <input type="name" class="form-control" id="clientemail" aria-describedby="emailhelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="clientemail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="clientemail" aria-describedby="emailhelp">
+                            <div id="emailhelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="clientphone" class="form-label">Phone</label>
+                            <input type="phone" class="form-control" id="clientphone">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="clientemail" class="form-label">Enquiry</label>
+                            <input type="text" class="form-control" id="clientemail" aria-describedby="emailhelp">
+                        </div>
+
+                        <div class="mb-3" id= "form-check">
+                            <input type="checkbox" class="form-check-input" id="isclient">
+                            <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                        </div>
+                        
+                        <div class="btn-sm">
+                            <a href="#"><button type="submit"> Submit</button></a>
+                        </div>
+                    </form>
+
+                    <div class="icon">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+                    </div>
+                    
+                </div>
+           </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
