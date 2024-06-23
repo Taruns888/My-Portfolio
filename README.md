@@ -16,7 +16,6 @@ The portfolio features a sidebar for easy navigation through different sections.
 - HTML
 - CSS
 - JavaScript
-- Bootstrap
 
 ## Installation
 1. Clone the repository:
